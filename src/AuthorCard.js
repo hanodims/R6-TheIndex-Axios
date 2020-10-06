@@ -2,6 +2,7 @@ import React from "react";
 
 const AuthorCard = props => {
   const author = props.author;
+  console.log(author)
   const authorName = `${author.first_name} ${author.last_name}`;
   return (
     <div className="col-lg-4 col-md-6 col-12">
